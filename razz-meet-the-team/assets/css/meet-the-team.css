@@ -1,0 +1,210 @@
+.meet-the-team__header {
+  display: block;
+  text-align: center;
+  padding: 100px 20px;
+  background: #f6b220; }
+  .meet-the-team__header h1 {
+    margin: 0;
+    padding: 0;
+    line-height: 1; }
+
+.meet-the-team {
+  width: 90%;
+  max-width: 1300px;
+  margin: 100px auto;
+  text-align: center; }
+  .meet-the-team a:hover {
+    opacity: 0.85; }
+  .meet-the-team .meet-the-team__hr {
+    display: inline-block;
+    width: 88px;
+    height: 2px;
+    background: #f6b220; }
+    .meet-the-team .meet-the-team__hr.meet-the-team__hr--hidden {
+      background: transparent; }
+  .meet-the-team .meet-the-team__staff-list-tile__content {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center; }
+    .meet-the-team .meet-the-team__staff-list-tile__content h3 {
+      position: relative;
+      font-size: 20px;
+      color: #ffffff;
+      margin-top: 10px;
+      z-index: 1; }
+  .meet-the-team .meet-the-team__staff-list-tile__content__gradient {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 45px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#545454+0,ffffff+100&1+0,0+100 */
+    background: -moz-linear-gradient(top, #545454 0%, rgba(255, 255, 255, 0) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #545454 0%, rgba(255, 255, 255, 0) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #545454 0%, rgba(255, 255, 255, 0) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#545454', endColorstr='#00ffffff',GradientType=0 );
+    /* IE6-9 */ }
+  .meet-the-team .meet-the-team__staff-list-tile {
+    display: inline-block;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 2%;
+    background-size: cover;
+    background-position: center center; }
+    .meet-the-team .meet-the-team__staff-list-tile:hover {
+      opacity: 1; }
+      .meet-the-team .meet-the-team__staff-list-tile:hover .meet-the-team__staff-list-tile__content {
+        display: inline-block; }
+    @media only screen and (max-width: 767px) {
+      .meet-the-team .meet-the-team__staff-list-tile {
+        width: 138px;
+        height: 138px;
+        margin: 1%; } }
+  .meet-the-team .meet-the-team__staff-list-wrapper {
+    position: relative; }
+    .meet-the-team .meet-the-team__staff-list-wrapper .meet-the-team__vr {
+      left: 20%;
+      margin-top: -40px;
+      z-index: 2; }
+  .meet-the-team .meet-the-team__staff-list-left {
+    float: left;
+    width: 40%; }
+    .meet-the-team .meet-the-team__staff-list-left h3 {
+      position: relative;
+      margin-top: 50px;
+      padding: 30px 0;
+      background: #ffffff;
+      z-index: 3; }
+    @media only screen and (max-width: 1023px) {
+      .meet-the-team .meet-the-team__staff-list-left {
+        width: 100%; }
+        .meet-the-team .meet-the-team__staff-list-left h3 {
+          padding: 0;
+          margin-top: 10px; } }
+  .meet-the-team .meet-the-team__staff-list-right {
+    float: left;
+    width: 50%;
+    margin-left: 10%; }
+    @media only screen and (max-width: 1023px) {
+      .meet-the-team .meet-the-team__staff-list-right {
+        width: 100%;
+        margin-left: 0; } }
+  .meet-the-team .meet-the-team__go-back {
+    text-align: right;
+    margin: 0 0 70px 10px; }
+  .meet-the-team .meet-the-team__vr {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    width: 2px;
+    background: #f6b220; }
+    @media only screen and (max-width: 1023px) {
+      .meet-the-team .meet-the-team__vr {
+        display: none; } }
+  .meet-the-team .meet-the-team__position {
+    font-size: 1.2em;
+    margin: 0;
+    line-height: 1; }
+  .meet-the-team .meet-the-team__bio {
+    padding: 0 5%; }
+  .meet-the-team .meet-the-team__top--less {
+    height: 450px; }
+  .meet-the-team .meet-the-team__top__left,
+  .meet-the-team .meet-the-team__top__right {
+    position: relative;
+    float: left; }
+  .meet-the-team .meet-the-team__top__left {
+    width: 40%;
+    text-align: center; }
+    @media only screen and (max-width: 1023px) {
+      .meet-the-team .meet-the-team__top__left {
+        width: 100%; } }
+  .meet-the-team .meet-the-team__top__right {
+    width: 58%;
+    margin-left: 2%;
+    height: 100%;
+    overflow: hidden; }
+    @media only screen and (max-width: 1023px) {
+      .meet-the-team .meet-the-team__top__right {
+        width: 100%; } }
+  .meet-the-team .meet-the-team__info {
+    margin-bottom: 20px; }
+    .meet-the-team .meet-the-team__info h3 {
+      margin-bottom: 10px; }
+    .meet-the-team .meet-the-team__info .meet-the-team__social-icons i {
+      padding: 10px; }
+  .meet-the-team .meet-the-team__image-wrapper {
+    display: inline-block;
+    position: relative;
+    max-width: 100%; }
+  .meet-the-team .meet-the-team__image,
+  .meet-the-team .meet-the-team__image-shadow {
+    width: 400px;
+    height: 450px;
+    max-width: 100%; }
+    @media only screen and (max-width: 1023px) {
+      .meet-the-team .meet-the-team__image,
+      .meet-the-team .meet-the-team__image-shadow {
+        margin-bottom: 40px;
+        width: 350px;
+        height: 400px; } }
+    @media only screen and (max-width: 767px) {
+      .meet-the-team .meet-the-team__image,
+      .meet-the-team .meet-the-team__image-shadow {
+        width: 260px;
+        height: 310px; } }
+  .meet-the-team .meet-the-team__image {
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+    z-index: 2; }
+  .meet-the-team .meet-the-team__image-shadow {
+    position: absolute;
+    top: -35px;
+    left: -35px;
+    background: #f6b220;
+    z-index: 1; }
+    @media only screen and (max-width: 1023px) {
+      .meet-the-team .meet-the-team__image-shadow {
+        top: -20px;
+        left: -20px; } }
+  .meet-the-team .meet-the-team__show-more {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 7px;
+    text-align: center;
+    background: #ffffff; }
+    .meet-the-team .meet-the-team__show-more.hidden {
+      display: none !important; }
+  .meet-the-team .meet-the-team__top--less .meet-the-team__show-more {
+    display: block; }
+  .meet-the-team .meet-the-team__facts_title {
+    margin: 40px 0; }
+  .meet-the-team .meet-the-team__facts {
+    position: relative; }
+    .meet-the-team .meet-the-team__facts .meet-the-team__facts__left,
+    .meet-the-team .meet-the-team__facts .meet-the-team__facts__right {
+      float: left;
+      width: 50%; }
+      @media only screen and (max-width: 1023px) {
+        .meet-the-team .meet-the-team__facts .meet-the-team__facts__left,
+        .meet-the-team .meet-the-team__facts .meet-the-team__facts__right {
+          width: 100%; } }
+  .meet-the-team .meet-the-team__fact {
+    padding: 15px 60px; }
+    .meet-the-team .meet-the-team__fact h3 {
+      font-size: 28px; }
+
+/*# sourceMappingURL=meet-the-team.css.map */
